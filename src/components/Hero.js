@@ -18,9 +18,9 @@ function Hero() {
         shape: {
           type: "circle",
         },
-        // color: {
-        //   value: "pastelBlue",
-        // },
+        color: {
+          value: "#FDFD96",
+        },
         
         size: {
           value: 5,
@@ -29,7 +29,7 @@ function Hero() {
         line_linked: {
           enable: true,
           distance: 150,
-          color: "#ffffff",
+          color: "#FDFD96",
           opacity: 0.4,
           width: 1,
         },
@@ -44,7 +44,7 @@ function Hero() {
         events: {
           onhover: {
             enable: true,
-            mode: "grab",
+            mode: "push",
           },
           onclick: {
             enable: true,
