@@ -1,3 +1,8 @@
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -12,6 +17,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* Smooth scroll for in-page links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Initial state for fade-in animation */
+.opacity-0 {
+  opacity: 0;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.8s ease-out;
+}
+
 
 .App-header {
   background-color: #282c34;
